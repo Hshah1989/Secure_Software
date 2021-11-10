@@ -1,0 +1,212 @@
+{
+    "Sensors":[
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Goku"},
+                    "SensorDescription":{"S":"The strongest Saiyan of all-time."},
+                    "ImageFile":{"S":"/fullpath/goku.jpg"},
+                    "SampleRate":{"N":"2048"},
+                    "Locations":{"SS":["Earth", "Snake Way", "Kami's House"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Gohan"},
+                    "SensorDescription":{"S":"Goku's son. Ascended to Super Saiyan at a young age."},
+                    "ImageFile":{"S":"/fullpath/gohan_sensor.jpg"},
+                    "SampleRate":{"N":"1024"},
+                    "Locations":{"SS":["Earth", "Namek", "Space", "Croatian"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Piccolo"},
+                    "ImageFile":{"S":"/fullpath/piccolo_sensor.jpg"},
+                    "Locations":{"SS":["Namek", "Earth2", "Namek_sun"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Tien"},
+                    "SensorDescription":{"S":"Tien's super ability the tri-beam blast"},
+                    "ImageFile":{"S":"/fullpath/tien_sensor.jpg"},
+                    "SampleRate":{"N":"1024"},
+                    "Manufacturer":{"S":"Tokyo Epics"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Yamcha"},
+                    "SensorDescription":{"S":"Yamchas special ability is the Wolf Fang Fist"},
+                    "SampleRate":{"N":"512"},
+                    "Locations":{"SS":["Diablo Ocean", "Diablo Desert", "Diablo Mountains", "Diablo Land", "Diablo Sky"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Vegeta"},
+                    "SensorDescription":{"S":"Vegeta is a slim yet very well-built man of a below-average stature. "},
+                    "ImageFile":{"S":"/fullpath/vegeta_sensor.jpg"},
+                    "SampleRate":{"N":"1024"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Frieza"},
+                    "SensorDescription":{"S":"Emporer of Universe 7."},
+                    "ImageFile":{"S":"/fullpath/frieza_sensor.jpg"},
+                    "SampleRate":{"N":"2048"},
+                    "Locations":{"SS":["Universe7", "King Cold", "Tournament of Power"]},
+                    "SensorType":{"S":"Remote"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Abo"},
+                    "SensorDescription":{"S":"Is a soldier in the Frieza Force."},
+                    "ImageFile":{"S":"/fullpath/abo_sensor.jpg"},
+                    "Locations":{"SS":["Korea", "Yukonia", "Geonosis", "Dathraki"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Cell"},
+                    "SensorDescription":{"S":"Is an ultimate creation of Dr. Gero."},
+                    "ImageFile":{"S":"/fullpath/cell_sensor.jpg"},
+                    "SampleRate":{"N":"1022"},
+                    "Locations":{"SS":["Red Ribbon", "Androids", "Alternate Timeline", "Cell Games Sagas"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Granolah"},
+                    "SensorDescription":{"S":"Sole survivor of the Cerealian race that was annihilated by the Saiyan Army."},
+                    "SampleRate":{"N":"1022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Anakin Skywalker"},
+                    "ImageFile":{"S":"/fullpath/anakin_sensor.jpg"},
+                    "SampleRate":{"N":"1024"},
+                    "Locations":{"SS":["Tatooine"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Jaba_the_Hut"},
+                    "SensorDescription":{"S":"Jaba the Hut sensor use by Star Wars"},
+                    "ImageFile":{"S":"/fullpath/jhut_sensor.jpg"},
+                    "SampleRate":{"N":"2022"},
+                    "Locations":{"SS":["Kamino", "Tatooine", "Naboo", "Dagobah"]},
+                    "PowerSupply":{"S":"Luther"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Darth_Vader"},
+                    "SensorDescription":{"S":"Entered the Dark side and became evil"},
+                    "ImageFile":{"S":"/fullpath/dvader_sensor.jpg"},
+                    "Locations":{"SS":["Tatooine", "Coruscant", "Gustav", "Ladobah"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Princess_Leia"},
+                    "ImageFile":{"S":"/fullpath/pleia_sensor.jpg"},
+                    "SampleRate":{"N":"1059"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Chewbacca"},
+                    "SensorDescription":{"S":"furry human friend that can fly the Millenium Falcon"},
+                    "SampleRate":{"N":"1024"},
+                    "Locations":{"SS":["Felucia", "Kamino", "Kashyyyk", "Polis Massa"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Yoda"},
+                    "SensorDescription":{"S":"Little green guy that has much wisdom"},
+                    "ImageFile":{"S":"/fullpath/yoda_sensor.jpg"},
+                    "SampleRate":{"N":"1024"},
+                    "Locations":{"SS":["Naboo", "Geonosis"]},
+                    "Classification":{"S":"High"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"c3p0"},
+                    "SensorDescription":{"S":"friendly bot build by Anakin Skywalker"},
+                    "ImageFile":{"S":"/fullpath/awalker_sensor.jpg"},
+                    "SampleRate":{"N":"2099"},
+                    "Locations":{"SS":["Tatooine"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Obi-Wan_Kenobi"},
+                    "VersionNum":{"N":"4.8"},
+                    "SensorDescription":{"S":"One of the good guys and trainer Luke to beat vader"},
+                    "ImageFile":{"S":"/fullpath/okenobi_sensor.jpg"},
+                    "Locations":{"SS":["Tatooine", "Lisa Mosa", "Cherenel"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Millenium Falcon"},
+                    "SampleRate":{"N":"2048"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"Ashoka Tano"},
+                    "SensorDescription":{"S":"Good jedi from the newer star wars"},
+                    "ImageFile":{"S":"/fullpath/atano_sensor.jpg"},
+                    "SampleRate":{"N":"506"},
+                    "Locations":{"SS":["Legacy", "Tatooine"]}
+                }
+            }
+        }
+    ]
+}

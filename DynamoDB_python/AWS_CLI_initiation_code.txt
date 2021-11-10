@@ -1,0 +1,25 @@
+"""
+Hiren Shah
+9/10/21
+SDEV400_6380
+The command that are run in the AWS CLI to create the tables and delete them
+"""
+
+#makes the table with parameters
+aws dynamodb create-table \
+--table-name Sensors \
+--attribute-definitions \
+AttributeName=Sensor,AttributeType=S \
+--key-schema AttributeName=Sensor,KeyType=HASH \
+--provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5
+
+#returns items from the file into an index
+aws dynamodb batch-write-item --request-items file://JSON_SENSOR_SHAH_HW2.json \
+--return-consumed-capacity INDEXES --return-item-collection-metrics SIZE
+
+
+aws dynamodb scan --table-name Sensors
+
+aws dynamodb delete-table --table-name Sensors
+
+aws dynamodb delete-table --tableaws dy-name Courses aws dynamodb scan --table-name Sensors
